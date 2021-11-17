@@ -173,7 +173,7 @@ namespace ClassicUO.Game.UI.Gumps.CharCreation
             {
                 SkillEntry entry = SkillsLoader.Instance.SortedSkills[i];
 
-                if ((World.ClientFeatures.Flags & CharacterListFlags.CLF_SAMURAI_NINJA) == 0 && (entry.Index == 52 || entry.Index == 47 || entry.Index == 53) || entry.Index == 54)
+                if (entry.Index == 25 || entry.Index == 49 || entry.Index == 51 || entry.Index == 52 || entry.Index == 53 || entry.Index == 54)
                 {
                     skillList[i] = string.Empty;
                 }
